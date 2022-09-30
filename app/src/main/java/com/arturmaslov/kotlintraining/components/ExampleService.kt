@@ -1,4 +1,4 @@
-package com.arturmaslov.kotlintraining
+package com.arturmaslov.kotlintraining.components
 
 import android.app.Service
 import android.content.Intent

@@ -24,9 +24,9 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <service android:name=".ExampleService" />
+        <service android:name=".components.ExampleService" />
         <receiver
-            android:name=".SystemEventReceiver"
+            android:name=".components.SystemEventReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
